@@ -1,0 +1,24 @@
+
+                        #Task #1
+
+print("Python Simple Number Calculator")
+
+Number1 = int(input("Enter the first number:"))
+Number2 = int(input("Enter the second number:"))
+
+Addition = Number1 + Number2
+Subtraction = Number1 - Number2
+Multiplication = Number1 * Number2
+Division = Number1 / Number2
+print("The results are:")
+print("Addition = " ,Addition)
+print("Subtraction = " ,Subtraction)
+print("Multiplication = " ,Multiplication)
+print("Division = " ,Division)
+
+                    #Task #2        
+
+FirstName = str(input("Please Enter your first name: "))
+LastName = str(input("Please Enter your last name: "))
+
+print("Hello," ,FirstName, LastName, "Welcome to python program")
