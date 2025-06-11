@@ -1,0 +1,12 @@
+filename = "sample.txt"
+
+try:
+    with open(filename, "r") as file:
+        for line in file:
+            print(line.strip())
+except FileNotFoundError:
+    print(f"'{filename}' not found. Creating it with a sample line...")
+    with open(filename, "w") as file:
+        file.write("This is a sample line.\n")
+    print("Sample line added. Run the program again to read it.")
+
