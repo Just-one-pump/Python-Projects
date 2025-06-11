@@ -1,0 +1,27 @@
+
+#|||||||||||||||||||||||Task #1|||||||||||||||||||||||||
+
+def factorial(n):
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+sample_number = 5
+print(f"Factorial of {sample_number} is: {factorial(sample_number)}")
+
+
+#||||||||||||||||||||||||||Task #2||||||||||||||||||||||||||||
+
+
+import math
+
+num = float(input("Enter a number: "))
+
+sqrt_result = math.sqrt(num)
+log_result = math.log(num)
+sine_result = math.sin(num)
+
+print("Square root:", sqrt_result)
+print("Natural log:", log_result)
+print("Sine (in radians):", sine_result)
